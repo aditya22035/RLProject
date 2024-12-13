@@ -1,0 +1,49 @@
+=== Module 1: Policy ===
+Policy(
+  (base): CNNBase(
+    (main): Sequential(
+      (0): Conv2d(1, 32, kernel_size=(8, 8), stride=(4, 4))
+      (1): ReLU()
+      (2): Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))
+      (3): ReLU()
+      (4): Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1))
+      (5): ReLU()
+      (6): Flatten()
+      (7): Linear(in_features=1568, out_features=496, bias=True)
+      (8): ReLU()
+    )
+    (critic_linear): Linear(in_features=512, out_features=1, bias=True)
+    (layer1): GCNLayer(
+      (linear): Linear(in_features=2, out_features=16, bias=True)
+    )
+    (layer2): GCNLayer(
+      (linear): Linear(in_features=16, out_features=32, bias=True)
+    )
+    (layer4): GCNLayer(
+      (linear): Linear(in_features=32, out_features=16, bias=True)
+    )
+  )
+  (dist): Categorical(
+    (linear): Linear(in_features=512, out_features=1024, bias=True)
+  )
+)
+
+=== State Dictionary ===
+base.main.0.weight: torch.Size([32, 1, 8, 8])
+base.main.0.bias: torch.Size([32])
+base.main.2.weight: torch.Size([64, 32, 4, 4])
+base.main.2.bias: torch.Size([64])
+base.main.4.weight: torch.Size([32, 64, 3, 3])
+base.main.4.bias: torch.Size([32])
+base.main.7.weight: torch.Size([496, 1568])
+base.main.7.bias: torch.Size([496])
+base.critic_linear.weight: torch.Size([1, 512])
+base.critic_linear.bias: torch.Size([1])
+base.layer1.linear.weight: torch.Size([16, 2])
+base.layer1.linear.bias: torch.Size([16])
+base.layer2.linear.weight: torch.Size([32, 16])
+base.layer2.linear.bias: torch.Size([32])
+base.layer4.linear.weight: torch.Size([16, 32])
+base.layer4.linear.bias: torch.Size([16])
+dist.linear.weight: torch.Size([1024, 512])
+dist.linear.bias: torch.Size([1024])
