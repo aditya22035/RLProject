@@ -1,0 +1,19 @@
+parameter_name,type,shape,file_path
+base.main.0.weight,weight,"[32, 1, 8, 8]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_0_weight.npy
+base.main.0.bias,bias,[32],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_0_bias.npy
+base.main.2.weight,weight,"[64, 32, 4, 4]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_2_weight.npy
+base.main.2.bias,bias,[64],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_2_bias.npy
+base.main.4.weight,weight,"[32, 64, 3, 3]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_4_weight.npy
+base.main.4.bias,bias,[32],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_4_bias.npy
+base.main.7.weight,weight,"[496, 1568]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_7_weight.npy
+base.main.7.bias,bias,[496],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_main_7_bias.npy
+base.critic_linear.weight,weight,"[1, 512]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_critic_linear_weight.npy
+base.critic_linear.bias,bias,[1],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_critic_linear_bias.npy
+base.layer1.linear.weight,weight,"[16, 2]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_layer1_linear_weight.npy
+base.layer1.linear.bias,bias,[16],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_layer1_linear_bias.npy
+base.layer2.linear.weight,weight,"[32, 16]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_layer2_linear_weight.npy
+base.layer2.linear.bias,bias,[32],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_layer2_linear_bias.npy
+base.layer4.linear.weight,weight,"[16, 32]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_layer4_linear_weight.npy
+base.layer4.linear.bias,bias,[16],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/base_layer4_linear_bias.npy
+dist.linear.weight,weight,"[1024, 512]",/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/dist_linear_weight.npy
+dist.linear.bias,bias,[1024],/home/aditya22035/EDA-AI/DeepPlace/modelvalues/module_1_Policy/dist_linear_bias.npy
